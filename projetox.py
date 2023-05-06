@@ -49,4 +49,4 @@ dependencias = [
 ]
 
 ordem = imprimir_ordem_istalacao(dependencias) # declaracao da variavel 'ordem' que recebe a funcao 'imprimir_ordem_istalacao(dependencias)'
-print(ordem)
+print(ordem) 
