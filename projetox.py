@@ -49,4 +49,6 @@ dependencias = [
 ]
 
 ordem = imprimir_ordem_istalacao(dependencias) # declaracao da variavel 'ordem' que recebe a funcao 'imprimir_ordem_istalacao(dependencias)'
-print(ordem) 
+saida = ", ".join(str(item) for item in ordem) # o metodo join() desempacota os itens da lista e a funcao str() converte os elementos da lista em strings
+#print(ordem) # saida com colchetes
+print(saida) # saida formatada sem colchetes
