@@ -1,4 +1,4 @@
-estudo do problema:
+<h3>estudo do problema:</h3>
 
 - projeto x possui n dependencias a serem instaladas
 - cada dependencia possui tambem uma lista de dependencias
@@ -9,11 +9,11 @@ estudo do problema:
 - percorrer as dependencias (for)
 - as dependencias de uma tarefa devem ser instaladas antes dela propria
 
-OBJETIVO
+<b>OBJETIVO</b>
 - imprimir a ordem em que as dependencias precisam ser instaladas, levando em consideração as dependencias diretas e indiretas
 --------------------------------------------------------------------
 
-sequencia de passos:
+<h3>sequencia de passos:</h3>
 
 - criar uma estrutura de dados para armazenar as dependencias e suas respectivas dependencias (dicionario mapa_de_dependencias -> dep_direta: chave ; dep_indireta: valor)
 - preencher estrutura de dados com as informacoes fornecidas
@@ -31,7 +31,7 @@ sequencia de passos:
 
 --------------------------------------------------------------------
 
-estruturação do algoritmo:
+<h3>estruturação do algoritmo:</h3>
 
 - criar um dicionario "mapa_de_dependencias" p/guardar as dependencias de cada projeto
 - preencher o dicionario com as dependencias fornecidas
